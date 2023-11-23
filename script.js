@@ -19,4 +19,5 @@ function clean(){
 //delete 
 function back(){
     var hasil = document.form.textarea.value;
+    document.form.textarea.value=hasil.substring(0,hasil.legth-1);
 }
